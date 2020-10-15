@@ -1,6 +1,7 @@
 from peewee import Model, SqliteDatabase
+from libs.config import config
 
-db = SqliteDatabase('courses.db')
+db = SqliteDatabase(config['DATA']['db_path'])
 
 
 class BaseModel(Model):

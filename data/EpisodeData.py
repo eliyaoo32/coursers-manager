@@ -2,7 +2,8 @@ from dataclasses import dataclass
 
 
 @dataclass
-class ChapterData:
+class EpisodeData:
     name: str
     series_no: int
-    folder_path: str
+    video_path: str
+    thumbnail_path: str

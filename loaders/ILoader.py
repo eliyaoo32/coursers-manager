@@ -6,3 +6,7 @@ class ILoader(ABC):
     @abstractmethod
     def load_course(self, courses_controller: AbsCoursesController):
         pass
+
+    @abstractmethod
+    def loader_name(self):
+        pass

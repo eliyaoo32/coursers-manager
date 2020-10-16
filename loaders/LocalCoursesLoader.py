@@ -3,9 +3,9 @@ from os.path import basename
 from typing import List
 from distutils.dir_util import copy_tree
 
-from data.ChapterData import ChapterData
-from data.EpisodeData import EpisodeData
-from data.EpisodeStatus import EpisodeStatus
+from dataObjects.ChapterData import ChapterData
+from dataObjects.EpisodeData import EpisodeData
+from dataObjects.EpisodeStatus import EpisodeStatus
 from libs.utils import get_directories_of_path, get_all_playable_files, remove_extension_of_filename
 from libs.config import config
 from controllers.AbsCoursesController import AbsCoursesController

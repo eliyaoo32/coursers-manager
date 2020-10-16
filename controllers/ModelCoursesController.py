@@ -1,5 +1,5 @@
 from controllers.AbsCoursesController import AbsCoursesController
-from data.EpisodeStatus import EpisodeStatus
+from dataObjects.EpisodeStatus import EpisodeStatus
 from models.Course import Course
 from models.Chapter import Chapter
 from models.Episode import Episode

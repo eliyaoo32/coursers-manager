@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from data.EpisodeStatus import EpisodeStatus
+from dataObjects.EpisodeStatus import EpisodeStatus
 
 
 class AbsCoursesController(ABC):
